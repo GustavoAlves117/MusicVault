@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_button_primary.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/xml_file_paths.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_button_secondary.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_button_secondary.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_activity_main.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_activity_my_vault.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/activity_my_vault.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_item_spinner_dropdown.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/item_spinner_dropdown.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_card.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_badge.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_badge.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_item_spinner_selected.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/item_spinner_selected.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_cover.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_cover.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_button_danger.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_button_danger.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_screen.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_screen.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_item_album_search.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/item_album_search.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_activity_search.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_item_track.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/item_track.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_item_saved_album.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/item_saved_album.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/layout_activity_album_detail.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/layout/activity_album_detail.xml"
+    },
+    {
+        "merged": "com.example.musicvault.app-debug-25:/drawable_bg_input.xml.flat",
+        "source": "com.example.musicvault.app-main-27:/drawable/bg_input.xml"
+    }
+]

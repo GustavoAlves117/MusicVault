@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_card">
+
+    <ImageView
+        android:id="@+id/imgCover"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_cover"
+        android:layout_marginEnd="12dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtAlbumName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Álbum"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/txtRatingBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.0"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:background="@drawable/bg_badge" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtArtistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artista"
+            android:textColor="#D6D6D6"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textColor="#AFAFAF"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/txtReviewPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prévia da review"
+            android:textColor="#EAEAEA"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota"
+            android:textColor="#BBBBBB"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

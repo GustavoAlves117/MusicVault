@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music Vault"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seu diário pessoal de álbuns"
+                android:textSize="14sp"
+                android:textColor="#BDBDBD"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnVault"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:minWidth="0dp"
+                    android:text="Meu Vault"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/bg_button_secondary"
+                    android:layout_marginEnd="10dp" />
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:minWidth="0dp"
+                    android:text="Buscar álbum"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/bg_button_primary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/bg_card"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seu diário musical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtHomeSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toque em uma review para abrir os detalhes."
+                android:textColor="#CFCFCF"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reviews recentes"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/txtEmptyReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nenhuma review ainda. Pesquise um álbum, salve uma nota e escreva uma resenha."
+            android:textColor="#BDBDBD"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:padding="24dp"
+            android:background="@drawable/bg_card"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:nestedScrollingEnabled="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quero ouvir"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/txtEmptyWantToListen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nenhum álbum marcado como Quero ouvir ainda."
+            android:textColor="#BDBDBD"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:padding="24dp"
+            android:background="@drawable/bg_card"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerWantToListen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+
+</ScrollView>

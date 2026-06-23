@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.musicvault"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.13.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\92e82e27f089ea7ab841ec9d768191dc\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.musicvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.13.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\92e82e27f089ea7ab841ec9d768191dc\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.13.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\92e82e27f089ea7ab841ec9d768191dc\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.musicvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.13.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\92e82e27f089ea7ab841ec9d768191dc\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.13.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\92e82e27f089ea7ab841ec9d768191dc\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:5:5-34:19
+20        android:allowBackup="true"
+20-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.13.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\92e82e27f089ea7ab841ec9d768191dc\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:label="Music Vault"
+24-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:8:9-36
+25        android:supportsRtl="true"
+25-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:9:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+27-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:7:9-65
+28        <provider
+29            android:name="androidx.core.content.FileProvider"
+29-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:12:13-62
+30            android:authorities="com.example.musicvault.fileprovider"
+30-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:13:13-64
+31            android:exported="false"
+31-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:14:13-37
+32            android:grantUriPermissions="true" >
+32-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:15:13-47
+33            <meta-data
+33-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:16:13-18:54
+34                android:name="android.support.FILE_PROVIDER_PATHS"
+34-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:17:17-67
+35                android:resource="@xml/file_paths" />
+35-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:18:17-51
+36        </provider>
+37
+38        <activity android:name="com.example.musicvault.AlbumDetailActivity" />
+38-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:21:9-57
+38-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:21:19-54
+39        <activity android:name="com.example.musicvault.MyVaultActivity" />
+39-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:22:9-53
+39-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:22:19-50
+40        <activity android:name="com.example.musicvault.SearchActivity" />
+40-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:23:9-52
+40-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:23:19-49
+41        <activity
+41-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:25:9-32:20
+42            android:name="com.example.musicvault.MainActivity"
+42-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:26:13-41
+43            android:exported="true" >
+43-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:27:13-36
+44            <intent-filter>
+44-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:28:13-31:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:29:17-69
+45-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:30:17-77
+47-->C:\Users\gualv\Downloads\MusicVault_V1_ShareImage\MusicVault_V1\app\src\main\AndroidManifest.xml:30:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[com.squareup.picasso:picasso:2.8] C:\Users\gualv\.gradle\caches\9.3.0\transforms\fd2a281fdbeacad5479bf60ac20f5add\workspace\transformed\jetified-picasso-2.8\AndroidManifest.xml:8:9-11:40
+52            android:name="com.squareup.picasso.PicassoProvider"
+52-->[com.squareup.picasso:picasso:2.8] C:\Users\gualv\.gradle\caches\9.3.0\transforms\fd2a281fdbeacad5479bf60ac20f5add\workspace\transformed\jetified-picasso-2.8\AndroidManifest.xml:9:13-64
+53            android:authorities="com.example.musicvault.com.squareup.picasso"
+53-->[com.squareup.picasso:picasso:2.8] C:\Users\gualv\.gradle\caches\9.3.0\transforms\fd2a281fdbeacad5479bf60ac20f5add\workspace\transformed\jetified-picasso-2.8\AndroidManifest.xml:10:13-72
+54            android:exported="false" />
+54-->[com.squareup.picasso:picasso:2.8] C:\Users\gualv\.gradle\caches\9.3.0\transforms\fd2a281fdbeacad5479bf60ac20f5add\workspace\transformed\jetified-picasso-2.8\AndroidManifest.xml:11:13-37
+55        <provider
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\bb2f53c1aa39517c77368141b30ff50e\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\bb2f53c1aa39517c77368141b30ff50e\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.musicvault.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\bb2f53c1aa39517c77368141b30ff50e\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\bb2f53c1aa39517c77368141b30ff50e\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\bb2f53c1aa39517c77368141b30ff50e\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\bb2f53c1aa39517c77368141b30ff50e\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gualv\.gradle\caches\9.3.0\transforms\bb2f53c1aa39517c77368141b30ff50e\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gualv\.gradle\caches\9.3.0\transforms\6ea606c5b024c3c6b3b589ed88202200\workspace\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gualv\.gradle\caches\9.3.0\transforms\6ea606c5b024c3c6b3b589ed88202200\workspace\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gualv\.gradle\caches\9.3.0\transforms\6ea606c5b024c3c6b3b589ed88202200\workspace\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+67                android:value="androidx.startup" />
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+68        </provider>
+69
+70        <receiver
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+71            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+72            android:directBootAware="false"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+73            android:enabled="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+74            android:exported="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+75            android:permission="android.permission.DUMP" >
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+77                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+80                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+83                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+86                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gualv\.gradle\caches\9.3.0\transforms\3166757c32ef7230f1607310abc6574b\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+87            </intent-filter>
+88        </receiver>
+89    </application>
+90
+91</manifest>
